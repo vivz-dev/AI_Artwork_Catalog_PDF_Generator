@@ -10,6 +10,9 @@ Users upload images that contain both the artwork and accompanying text (e.g., e
 
 All layout, typography and branding options are configurable from the UI and persisted across sessions.
 
+
+<img width="1134" height="492" alt="image" src="https://github.com/user-attachments/assets/5529f7d8-162d-40c1-ae9b-b84c976b1c04" />
+
 ---
 
 ## Features
