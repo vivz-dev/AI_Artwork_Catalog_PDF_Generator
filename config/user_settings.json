@@ -1,0 +1,14 @@
+{
+  "logo_mode": "default",
+  "logo_path": "assets/knb+art+advisory-3.webp",
+  "logo_width_mm": 50,
+  "logo_position_key": "top-center",
+  "page_format": "A4",
+  "orientation": "P",
+  "title_font_family": "Courier",
+  "title_font_size": 16.0,
+  "body_font_family": "Arial",
+  "body_font_size": 11.0,
+  "title_color_hex": "#a40405",
+  "body_color_hex": "#0F172A"
+}
