@@ -1,0 +1,29 @@
+# .github/workflows/daily-commit.yml
+name: Daily Commit
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions: # Otorga los permisos para el flujo de trabajo - Esto es necesario para crear un commit
+      issues: write
+      pull-requests: write
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Git credentials
+        run: |
+          git config --global user.name ""vivz-dev"
+          git config --global user.email "vivianavera03@gmail.com"
+          git remote set-url origin https://${{ secrets.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 }}@github.com/vivz-dev/repo.git
+
+      - name: Run script
+        run: |
+          chmod +x ./auto_commit.sh
+          bash ./auto_commit.sh
