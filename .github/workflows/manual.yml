@@ -22,7 +22,7 @@ jobs:
         run: |
           git config --global user.name "vivz-dev"
           git config --global user.email "vivianavera03@gmail.com"
-          git remote set-url origin https://${{ secrets.AI_Artwork }}@github.com/vivz-dev/repo.git
+          git remote set-url origin https://${{ secrets.AI_Artwork }}@github.com/vivz-dev/AI_Artwork_Catalog_PDF_Generator.git
 
       - name: Run script
         run: |
