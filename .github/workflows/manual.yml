@@ -25,5 +25,5 @@ jobs:
 
       - name: Run script
         run: |
-          chmod +x ./auto_commit.sh
-          bash ./auto_commit.sh
+          chmod +x ./.github/scripts/auto_commit.sh
+          bash ./.github/scripts/auto_commit.sh
